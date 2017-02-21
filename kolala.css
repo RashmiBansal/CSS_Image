@@ -1,0 +1,150 @@
+body
+{
+	background-color: #25A9FC;
+}
+.box{
+	background-color: #ffffff;
+	height: 420px;
+	width: 600px;
+	position: relative;
+	display: block;
+	margin: auto;
+	margin-top: 8%;
+}
+.head
+{
+	position: absolute;
+	top:16.5%;
+	left:25%;
+	background-color: #A6BECF;
+	width: 50%;
+	height:67%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.left-eye
+{
+	position: absolute;
+	top:25%;
+	left:21%;
+	background-color: #fff;
+	height: 33%;
+	width:30%;
+	border-radius: 50%;
+	z-index: 2;
+}
+.right-eye
+{
+	position: absolute;
+	top:25%;
+	right:21%;
+	background-color: #fff;
+	height: 33%;
+	width:30%;
+	border-radius: 50%;
+	z-index: 2;
+}
+.pupil
+{
+	position: absolute;
+	top:35%;
+	left:36%;
+	background-color: #000;
+	height: 30%;
+	width:28%;
+	border-radius: 50%;
+	z-index: 3;
+}
+.nose{
+	position: absolute;
+	background-color: #BE845F;
+	top:45%;
+	left:37%;
+	height: 42.5%;
+	width:25%;
+	border-radius: 50px;
+	z-index: 4;
+
+}
+.left-ear
+{
+	position: absolute;
+	top:20%;
+	left:15%;
+	background-color: #A6BECF;
+	width: 37%;
+	height:45%;
+	border-radius: 50%;
+	z-index: 0;
+}
+.left-inner-ear{
+	position: absolute;
+	top:10%;
+	left:10%;
+	background-color: #F64789;
+	width: 70%;
+	height: 80%;
+	border-radius: 50%;
+}
+.right-ear
+{
+	position: absolute;
+	top:20%;
+	right:15%;
+	background-color: #A6BECF;
+	width: 37%;
+	height:45%;
+	border-radius: 50%;
+	z-index: 0;
+}
+.right-inner-ear{
+	position: absolute;
+	top:10%;
+	right:10%;
+	background-color: #F64789;
+	width: 70%;
+	height: 80%;
+	border-radius: 50%;
+}
+.hair-left{
+	width: 0;	
+	height: 0;
+	top:10%;
+	left:37%;
+	position: absolute;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom: 100px solid #A6BECF;
+	//border-top: 100px solid #000;
+}
+/*.hair-left{
+	position: absolute;
+	top:10%;
+	background-color: #000000;
+	width: 100px;
+	height: 100px;
+	//-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	
+}*/
+.hair-right{
+	width: 0;
+	height: 0;
+	top:12.5%;
+	right:37%;
+	position: absolute;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom: 100px solid #A6BECF;
+}
+@media all and (max-width: 600px){
+	.box{
+		position: relative;
+		margin: auto;
+		display: block;
+		height: 280px;
+		width: 400px;
+		margin-top:2%;
+		background: none;
+	}
+}
