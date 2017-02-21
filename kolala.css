@@ -2,14 +2,16 @@ body
 {
 	background-color: #25A9FC;
 }
-.box{
+.box-kolala{
 	background-color: #ffffff;
 	height: 420px;
 	width: 600px;
 	position: relative;
 	display: block;
 	margin: auto;
-	margin-top: 8%;
+	margin-left: 2%;
+	margin-top: 2%;
+	
 }
 .head
 {

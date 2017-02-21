@@ -1,4 +1,4 @@
-function myFunction(e) {
+/*function myFunction(e) {
     var x = e.clientX;
     var y = e.clientY;
     var coor = "Coordinates: (" + x + "," + y + ")";
@@ -7,5 +7,5 @@ function myFunction(e) {
 
 function clearCoor() {
     document.getElementById("demo").innerHTML = "";
-}
+}*/
 

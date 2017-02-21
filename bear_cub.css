@@ -1,0 +1,200 @@
+.box-bear-cub{
+	background-color: #000;
+	height: 420px;
+	width: 600px;
+	position: relative;
+	display: block;
+	//margin: auto;
+	margin-left:100%;
+	margin-top: 2%;
+	
+}
+.head-bear-cub
+{
+	position: absolute;
+	top:10%;
+	left:37%;
+	background-color: #ff6a80;
+	width:25%;
+	height:33%;
+	border-radius: 50%;
+	z-index: 2;
+}
+.left-eye-bear-cub
+{
+	position: absolute;
+	top:25%;
+	left:18%;
+	background-color: #47393B;
+	height: 25%;
+	width:22%;
+	border-radius: 50%;
+	z-index: 3;
+}
+.right-eye-bear-cub
+{
+	position: absolute;
+	top:25%;
+	right:18%;
+	background-color: #47393B;
+	height: 25%;
+	width:22%;
+	border-radius: 50%;
+	z-index: 3;
+}
+.pupil-bear-cub
+{
+	position: absolute;
+	top:22%;
+	left:18%;
+	background-color: #000;
+	height: 75%;
+	width:65%;
+	border-radius: 50%;
+	z-index: 4;
+}
+.nose-bear-cub{
+	position: absolute;
+	background-color: #fff;
+	top:35%;
+	left:29%;
+	height: 50%;
+	width:42%;
+	border-radius: 50%;
+	z-index: 2;
+}
+.inner-nose-bear-cub
+{
+	position: absolute;
+	top:23%;
+	left:26%;
+	background-color: #ff1e3f;
+	height: 40%;
+	width:47%;
+	border-radius: 50%;
+	z-index: 4;
+}
+.smile-bear-cub
+{
+	margin-top:-72%;
+	margin-left: 16%;
+	border-bottom: 4px solid #ff1e3f;
+    height:45px;  
+    width: 40px;
+    border-radius: 70px;
+}
+.Nose-line-bear-cub{
+	margin-left:46%;
+	margin-top: 60%;
+	border-left: 4px solid #ff1e3f;
+	height: 20px;
+	width:20px;
+
+}
+.left-ear-bear-cub
+{
+	position: absolute;
+	top:9%;
+	left:38%;
+	background-color: #ff6a80;
+	width: 10%;
+	height:15%;
+	border-radius: 50%;
+	z-index: 0;
+}
+.left-inner-ear-bear-cub
+{
+	position: absolute;
+	top:10%;
+	left:10%;
+	background-color: #ff1e3f;
+	width: 70%;
+	height: 80%;
+	border-radius: 50%;
+}
+.right-ear-bear-cub
+{
+	position: absolute;
+	top:9%;
+	right:38%;
+	background-color: #ff6a80;
+	width: 10%;
+	height:15%;
+	border-radius: 50%;
+	z-index: 0;
+}
+/*.right-inner-ear-bear-cub
+{
+	position: absolute;
+	top:10%;
+	right:10%;
+	background-color: #ff1e3f;
+	width: 70%;
+	height: 80%;
+	border-radius: 50%;
+}*/
+.cap-bear-cub{
+	width: 0;	
+	height: 0;
+	top:2%;
+	left:41.5%;
+	position: absolute;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom: 100px solid white;
+}
+.stomach-bear-cub{
+	position: absolute;
+	top:37%;
+	left:37%;
+	background-color: #ff6a80;
+	width:25%;
+	height:38%;
+	border:2px solid #ff1e3f;
+	border-radius: 45%;
+	z-index: 1;
+}
+.left-hand-bear-cub
+{
+	position: absolute;
+	top:43.5%;
+	left:25%;
+	background-color: #ff6a80;
+	width: 18%;
+	height: 10%;
+	border:2px solid #ff1e3f;
+	border-radius: 45%;
+}
+.right-hand-bear-cub
+{
+	position: absolute;
+	top:43.5%;
+	right:25%;
+	background-color: #ff6a80;
+	width: 18%;
+	height: 10%;
+	border:2px solid #ff1e3f;
+	border-radius: 45%;
+}
+.left-leg-bear-cub
+{
+	position: absolute;
+	top:65%;
+	left:40%;
+	background-color: #ff6a80;
+	width: 8%;
+	height: 25%;
+	border:2px solid #ff1e3f;
+	border-radius: 45%;
+}
+.right-leg-bear-cub
+{
+	position: absolute;
+	top:65%;
+	right:40%;
+	background-color: #ff6a80;
+	width: 8%;
+	height: 25%;
+	border:2px solid #ff1e3f;
+	border-radius: 45%;
+}
